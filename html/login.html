@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<HTML>
+	
+	<HEAD>
+		<link rel="stylesheet" href="../css/login.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		<TITLE>
+			HIPERLINKED FILE
+		</TITLE>
+	</HEAD>
+	<BODY >
+		<div class="header">
+			<h1>Give Feedback</h1>
+			<br>
+		</div>
+		<div id="navbar">
+			<a  href="../index.html">Home</a>
+			<a href="contact.html">Contact Me</a>
+			<a href="2.html">Gallery</a>
+			<a class="active" href="login.html">Form</a>
+		  </div>			  
+		<div class="main">
+			<br>
+			<hr>
+			<br>
+			<hr width=70% SIZE="6" color="2334F3">
+			
+			  <br><br>
+			  <form class="form-horizontal">
+				<div class="form-group form-group-lg">
+				  <label class="control-label col-sm-2" for="Name">Name:</label>
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" id="Name" placeholder="Enter "text"">
+				  </div>
+				</div>
+				<div class="form-group form-group-lg">
+				  <label class="control-label col-sm-2" for="Skill">Skill:</label>
+				  <div class="col-sm-10">
+					<input type="text" width =70% class="form-control" id="Skill" placeholder="Enter Skill">
+				  </div>
+				</div> <div class="form-group form-group-lg">
+					<label class="control-label col-xs-2" width="70%" for="sel1">Level:</label>
+					<div class= "col-sm-10 col-xs-2">
+					<select class="form-control" id="sel1">
+					  <option>Beginner</option>
+					  <option>Intermediate</option>
+					  <option>Proficient</option>
+					</select>
+					</div>
+				  </div>  
+				<div class="form-group form-group-lg">
+					<label class="control-label col-sm-2" for="comment">Comment:</label>
+					<div class="col-sm-10">
+					<textarea class="form-control" rows="5"  id="comment"></textarea>
+				  </div>
+				</div>
+				<div class="form-group form-group-lg">
+				  <div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" id="submit" onclick="fun()" class="btn btn-default">Submit</button>
+				  </div>
+				</div>
+			  </form> 
+			  
+			<br><br>
+			<div  style="overflow-x:auto;" id="resptable">
+			<table id = "values" >
+				<tr>
+					<td><p style="color:blue;" id='
+						name'>Name</p></td>
+					<td><p id = 'skill'>Skill</p></td>
+					<td><p id = 'Sel1'>Level</p></td>
+					<td><p id = 'Comment'>Comment</p></td>
+				</tr>
+			</table>
+			</div>
+			<script type="text/javascript" src="../js/table.js"></script>
+			<br><br><br><br><br>	
+				<br>	
+				<hr color="2334F3" width=70% size=6>
+				<button onclick="topFunction()" id="myBtn" title="Go to top"> <img src="../img/backtotop.png" h="45" height="45"/></button>
+				<script src="../js/scroll.js"></script>
+				<p style="font-family:courier;font-size:20px;font-style:italic;">copyright belongs to Prince.Ltd </p>
+				<a href=../index.html ><b>Home</b></a>
+		</div>
+	</BODY>
+</HTML>
